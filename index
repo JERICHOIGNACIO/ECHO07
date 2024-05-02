@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body{
+        background-image: url(https://wallpapercave.com/wp/wp2555019.jpg)
+    }
+    th,
+    td {
+      text-align: center;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .red {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">JANUARY 2024</h1>
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th class="text-danger bg-warning">Sun</th>
+          <th class="bold bg-warning">Mon</th>
+          <th class="bold bg-warning">Tue</th>
+          <th class="bold bg-warning">Wed</th>
+          <th class="bold bg-warning">Thu</th>
+          <th class="bold bg-warning">Fri</th>
+          <th class="bold bg-warning">Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td class="bg-danger bold">1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">FEBRUARY 2024</h1>
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th class="text-danger bg-warning">Sun</th>
+          <th class="bold bg-warning">Mon</th>
+          <th class="bold bg-warning">Tue</th>
+          <th class="bold bg-warning">Wed</th>
+          <th class="bold bg-warning">Thu</th>
+          <th class="bold bg-warning">Fri</th>
+          <th class="bold bg-warning">Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td class="bg-danger bold">9</td>
+          <td class="bg-danger bold">10</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td></td>
+          <td></td>
+        </tr>
+
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">MARCH 2024</h1>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th class="text-danger bg-warning">Sun</th>
+            <th class="bold bg-warning">Mon</th>
+            <th class="bold bg-warning">Tue</th>
+            <th class="bold bg-warning">Wed</th>
+            <th class="bold bg-warning">Thu</th>
+            <th class="bold bg-warning">Fri</th>
+            <th class="bold bg-warning">Sat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td class="text-danger bold">3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td class="text-danger bold">10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td class="text-danger bold">17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td class="text-danger bold">24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td class="bg-danger bold">28</td>
+            <td class="bg-danger bold">29</td>
+            <td class="bg-danger bold">30</td>
+          </tr>
+          <tr>
+            <td class="text-danger bold">31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">APRIL 2024</h1>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th class="text-danger bg-warning">Sun</th>
+            <th class="bold bg-warning">Mon</th>
+            <th class="bold bg-warning">Tue</th>
+            <th class="bold bg-warning">Wed</th>
+            <th class="bold bg-warning">Thu</th>
+            <th class="bold bg-warning">Fri</th>
+            <th class="bold bg-warning">Sat</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td class="text-danger bold">7</td>
+            <td>8</td>
+            <td class="bg-danger bold">9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td class="text-danger bold">14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td class="text-danger bold">21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td class="text-danger bold">28</td>
+            <td>29</td>
+            <td>30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+                       
+        </tbody>
+      </table>
+  </div>
+
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">MAY 2024</h1>
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th class="text-danger bg-warning">Sun</th>
+            <th class="bold bg-warning">Mon</th>
+            <th class="bold bg-warning">Tue</th>
+            <th class="bold bg-warning">Wed</th>
+            <th class="bold bg-warning">Thu</th>
+            <th class="bold bg-warning">Fri</th>
+            <th class="bold bg-warning">Sat</th>
+           </tr>
+        </thead>
+        <tbody>
+           <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td class="bg-danger bold">1</td>
+           <td>2</td>
+           <td>3</td>
+           <td>4</td>
+           </tr>
+           <tr>
+          <td class="text-danger bold">5</td>
+           <td>6</td>
+           <td>7</td>
+           <td>8</td>
+           <td>9</td>
+           <td>10</td>
+           <td>11</td>
+           </tr>
+           <tr>
+           <td class="text-danger bold">12</td>
+           <td>13</td>
+           <td>14</td>
+           <td>15</td>
+           <td>16</td>
+           <td>17</td>
+           <td>18</td>
+           </tr>
+           <tr>
+           <td class="text-danger bold">19</td>
+           <td>20</td>
+           <td>21</td>
+           <td>22</td>
+           <td>23</td>
+           <td>24</td>
+           <td>25</td>
+           <tr>
+           <td class="text-danger bold">26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+          <td></td>
+          </tr>
+                
+    </tbody>
+      </table>
+     </div>
+            
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">JUNE 2024</h1>
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+          <tr>
+              <th class="text-danger bg-warning">Sun</th>
+              <th class="bold bg-warning">Mon</th>
+              <th class="bold bg-warning">Tue</th>
+              <th class="bold bg-warning">Wed</th>
+              <th class="bold bg-warning">Thu</th>
+              <th class="bold bg-warning">Fri</th>
+              <th class="bold bg-warning">Sat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td class="text-danger bold">2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td class="text-danger bold">9</td>
+              <td>10</td>
+              <td>11</td>
+              <td class="bg-danger bold">12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td class="text-danger bold">16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td class="text-danger bold">23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+            </tr>
+            <tr>
+              <td class="text-danger bold">30</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+     </tbody>
+       </table>
+  </div>
+    
+
+   <div class="container">
+      <h1 class="mt-4 mb-3 center bg-warning">JULY 2024</h1>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+              <th class="text-danger bg-warning">Sun</th>
+              <th class="bold bg-warning">Mon</th>
+              <th class="bold bg-warning">Tue</th>
+              <th class="bold bg-warning">Wed</th>
+              <th class="bold bg-warning">Thu</th>
+              <th class="bold bg-warning">Fri</th>
+              <th class="bold bg-warning">Sat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td class="text-danger bold">7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <td class="text-danger bold">14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td class="text-danger bold">21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <td class="text-danger bold">28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td></td>
+              <td></td>
+              <td></td>                         
+            </tr>
+            
+    </tbody>
+      </table>
+   </div>
+     
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">AUGUST 2024</h1>
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+          <tr>
+          <th class="text-danger bg-warning">Sun</th>
+          <th class="bold bg-warning">Mon</th>
+          <th class="bold bg-warning">Tue</th>
+          <th class="bold bg-warning">Wed</th>
+          <th class="bold bg-warning">Thu</th>
+          <th class="bold bg-warning">Fri</th>
+          <th class="bold bg-warning">Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">25</td>
+          <td class="bg-danger bold">26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+        </tr>
+
+   </tbody>
+     </table>
+  </div>
+    
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">SEPTEMBER 2024</h1>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+          <th class="text-danger bg-warning">Sun</th>
+          <th class="bold bg-warning">Mon</th>
+          <th class="bold bg-warning">Tue</th>
+          <th class="bold bg-warning">Wed</th>
+          <th class="bold bg-warning">Thu</th>
+          <th class="bold bg-warning">Fri</th>
+          <th class="bold bg-warning">Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="text-danger bold">1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">29</td>
+          <td>30</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+   </tbody>
+    </table>
+  </div>
+    
+       
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">OCTOBER 2024</h1>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+          <th class="text-danger bg-warning">Sun</th>
+          <th class="bold bg-warning">Mon</th>
+          <th class="bold bg-warning">Tue</th>
+          <th class="bold bg-warning">Wed</th>
+          <th class="bold bg-warning">Thu</th>
+          <th class="bold bg-warning">Fri</th>
+          <th class="bold bg-warning">Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">20</td>
+          <td>21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+          <td></td>
+          <td></td>
+        </tr>
+
+   </tbody>
+    </table>
+  </div>
+    
+       
+  <div class="container">
+    <h1 class="mt-4 mb-3 center bg-warning">NOVEMBER 2024</h1>
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+          <tr>
+          <th class="text-danger bg-warning">Sun</th>
+          <th class="bold bg-warning">Mon</th>
+          <th class="bold bg-warning">Tue</th>
+          <th class="bold bg-warning">Wed</th>
+          <th class="bold bg-warning">Thu</th>
+          <th class="bold bg-warning">Fri</th>
+          <th class="bold bg-warning">Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="bg-danger bold">1</td>
+          <td class="bg-danger bold">2</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td class="bg-danger bold">21</td>
+          <td>22</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td class="bg-danger bold">30</td>
+        </tr>
+
+   </tbody>
+    </table>
+  </div>
+    
+    <div class="container">
+      <h1 class="mt-4 mb-3 center bg-warning">DECEMBER 2024</h1>
+        <table class="table table-bordered table-striped">
+          <thead class="thead-dark">
+          <tr>
+           <th class="text-danger bg-warning">Sun</th>
+           <th class="bold bg-warning">Mon</th>
+           <th class="bold bg-warning">Tue</th>
+           <th class="bold bg-warning">Wed</th>
+           <th class="bold bg-warning">Thu</th>
+           <th class="bold bg-warning">Fri</th>
+           <th class="bold bg-warning">Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="text-danger bold">1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">22</td>
+          <td>23</td>
+          <td class="bg-danger bold">24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td class="text-danger bold">29</td>
+          <td>30</td>
+          <td class="bg-danger bold">31</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+   </tbody>
+     </table>
+      
+     <h2 class="mt-4 bold text-center bg-info">A. REGULAR HOLIDAYS:</h2>
+       <table class="table table-bordered table-striped">
+
+          <thead>
+           <tr>
+           <th class="bg-warning">Event</th>
+           <th class="bg-warning">Date</th>
+           </tr>
+          </thead>
+
+            <tr>
+            <td class="text-danger bold"> New Year's Day</td>
+                <td class="text-danger bold">January 1 (Mon)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Maundy Thursday</td>
+                <td class="text-danger bold">March 28 (Thu)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Good Friday</td>
+                <td class="text-danger bold">March 29 (Fri)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Araw ng Kagitingan</td>
+                <td class="text-danger bold">April 9 (Tue)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Labor Day</td>
+                <td class="text-danger bold">May 1 (Wed)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Independence Day</td>
+                <td class="text-danger bold">June 12 (Wed)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">National Heroes Day</td>
+                <td class="text-danger bold">August 26 (Mon)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Bonifacio Day</td>
+                <td class="text-danger bold">November 30 (Sat)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Christmas Day</td>
+                <td class="text-danger bold">December 25 (Wed)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Rizal Day</td>
+                <td class="text-danger bold">December 30 (Mon)</td>
+                </tr>
+
+                </thead>
+                <tbody>
+                </table>
+
+         <h2 class="mt-4 bold text-center bg-info">B. SPECIAL (NON-WORKING) HOLIDAYS</h2>
+             <table class="table table-bordered table-striped">
+
+               <thead>
+                <tr>
+                <th class="bg-warning">Event</th>
+                <th class="bg-warning">Date</th>
+                </tr>
+               </thead>
+
+                <tr>
+                <td class="text-danger bold">Ninoy Aquino Day</td>
+                <td class="text-danger bold">August 21 (Wed)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">All Saints' Day</td>
+                <td class="text-danger bold">November 1 (Fri)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Feast of the Immaculate Conception of Mary</td>
+                <td class="text-danger bold">December 8 (Sun)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Last Day of the Year</td>
+                <td class="text-danger bold">December 31 (Tue)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Additional Special (Non-Working) Day</td>
+                <td class="text-danger bold">February 9 (Fri)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Chinese New Year - Additional Special (Non-Working) Day</td>
+                <td class="text-danger bold">February 10 (Sat)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Black Saturday - Additional Special (Non-Working) Day</td>
+                <td class="text-danger bold">March 30 (Sat)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">All Souls' Day - Additional Special (Non-Working) Day</td>
+                <td class="text-danger bold">November 2 (Sat)</td>
+                </tr>
+
+                <tr>
+                <td class="text-danger bold">Christmas Eve - Additional Special (Non-Working) Day</td>
+                <td class="text-danger bold">December 24 (Tue)</td>
+                </tr>
+                </thead>
+                <tbody>
+                </table>
+                </div>
+                  
+</body>
+</html>
